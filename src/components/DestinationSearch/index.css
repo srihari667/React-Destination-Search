@@ -1,0 +1,65 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+.heading {
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+}
+.destinations-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.search-input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-left: 15px;
+}
+
+.search-input {
+  color: #0f172a;
+  background-color: #f1f5f9;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+@media (min-width: 768px) {
+  .app-container {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .heading {
+    color: #000000;
+    font-weight: bold;
+    font-size: 32px;
+  }
+}
